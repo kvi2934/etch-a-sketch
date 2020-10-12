@@ -1,0 +1,43 @@
+:root {
+    --dim: 16
+}
+
+.box {
+    border: 1px solid lightgray;
+}
+
+.boxFilled {
+    background-color: rgb(26, 51, 194);
+}
+
+#mainDisplay {
+    height: 800px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(--dim, 1fr);
+    grid-template-rows: repeat(--dim, 1fr);
+    justify-items: stretch;
+    align-items: stretch;
+    border: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    margin-bottom: 10px;
+    height: 50px;
+    width: 150px;
+    border: 3px solid Black;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
